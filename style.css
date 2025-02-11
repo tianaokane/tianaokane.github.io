@@ -1,6 +1,7 @@
 /* General Body Style */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Fira Code', monospace;
+    font-weight: 400; /* Regular weight */
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -15,7 +16,25 @@ header {
 }
 
 h1 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 700; /* Bold weight */
     margin: 0;
+}
+
+h2 {
+font-family: 'Fira Code', monospace;
+    font-weight: 600; /* Semi-bold weight */
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 300; /* Light weight */
+}
+
+p {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500; /* Medium weight */
 }
 
 main {
@@ -42,6 +61,14 @@ main {
 @keyframes bounce {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
+}
+
+/* Load the Variable Font */
+@font-face {
+    font-family: 'Fira Code';
+    src: url('fonts/FiraCode-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Defines the weight range from 100 (lightest) to 900 (boldest) */
+    font-style: normal;
 }
 
 footer {
