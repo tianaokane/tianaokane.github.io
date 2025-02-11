@@ -32,7 +32,7 @@ main {
 
 /* Styling for the Caution symbol Image */
 #caution-symbol {
-    width: 100px;  /* Adjust the size of the image */
+    width: 50px;  /* Adjust the size of the image */
     height: auto;
     margin-top: 20px;
     animation: bounce 1s infinite alternate; /* Optional: add a fun animation */
