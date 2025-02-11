@@ -30,6 +30,20 @@ main {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling for the Caution Sign Image */
+#caution-sign {
+    width: 100px;  /* Adjust the size of the image */
+    height: auto;
+    margin-top: 20px;
+    animation: bounce 1s infinite alternate; /* Optional: add a fun animation */
+}
+
+/* Optional animation for the caution sign */
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
 footer {
     background-color: #2c3e50;
     color: white;
